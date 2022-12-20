@@ -10,7 +10,6 @@ const _state = {
 // getting or setting values of our state
 const handler = {
   set(obj, prop, value) {
-    console.log(value);
     obj[prop] = value;
 
     // magic happens here: we call our render method
